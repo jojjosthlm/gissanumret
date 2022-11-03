@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+width: 100%;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+
+p {
+    font-family: 'Vollkorn', sans-serif;
+    padding-bottom: 1rem;
+}
+
+section {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 30%;
+    left: 32%;
+    padding: 3rem 3rem;
+    box-shadow: 2rem;
+    border-radius: 0.5rem;
+}
+
+.guessField {
+    padding: 0.7rem;
+}
+.guessSubmit {
+    padding: 0.6rem 1.5rem;
+    border-radius: 0.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 3rem;
+}
